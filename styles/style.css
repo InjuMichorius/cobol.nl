@@ -1,0 +1,18 @@
+:root {
+  --background-white: #f7f8f9;
+  --color-black: #000;
+  --color-gray: #4e545f;
+  --accent-color: #ee4b2b;
+  --border-gray: #e9ebf1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+  /* background-color: var(--background-white); */
+}
