@@ -3,7 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 30px 80px;
-  background-color: var(--background-white);
+  background-color: #e6e6e6;
 }
 
 .menu-items {

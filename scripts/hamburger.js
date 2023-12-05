@@ -5,5 +5,3 @@ $(document).ready(function () {
     $(menu).toggleClass("show");
   });
 });
-
-console.log("hi");

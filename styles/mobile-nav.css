@@ -24,11 +24,12 @@
   position: fixed;
   top: 107px;
   background-color: var(--background-white);
+  transform: translateY(-100%);
   transition: all 0.3s ease-in-out;
 }
 
-.show {
-  transform: translateY(-100%);
+.mobile-nav .menu-items-container.show {
+  transform: translateY(0%);
 }
 
 .mobile-nav .menu-items {
