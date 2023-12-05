@@ -167,6 +167,10 @@ nav {
   background-image: url("../assets/images/german-flag.png");
 }
 
+.select-items div:last-child {
+  margin-top: 5px;
+}
+
 .select-items div:last-child::before {
   background-image: url("../assets/images/english-flag.png");
 }
@@ -199,4 +203,20 @@ nav {
 .same-as-selected {
   color: black;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1100px) {
+  nav {
+    padding: 30px 30px;
+  }
+  .menu-items {
+    gap: 30px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
 }

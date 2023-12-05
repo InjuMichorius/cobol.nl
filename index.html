@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jurgen Michorius - COBOL specialist</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/desktop-nav.css">
+    <link rel="stylesheet" href="./styles/mobile-nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="./scripts/hamburger.js" defer></script>
     <script src="./scripts/language-dropdown.js" defer></script>
+
 </head>
 
 <body>
@@ -50,6 +54,53 @@
                                 <p>Jurgen Michorius</p>
                             </a>
                         </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <nav class="mobile-nav">
+            <div class="mobile-top"><a href="#"><img src="./assets/images/logo.png" alt="" class="logo"></a>
+                <div class="hamburger" id="hamburger-11">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div id="menu" class="menu-items-container">
+                <ul class="menu-items">
+                    <a href="#expertise" class="menu-item">
+                        <li>Expertise</li>
+                    </a>
+                    <a href="./COBOL.html" class="menu-item">
+                        <li>COBOL</li>
+                    </a>
+                    <div class="custom-select" style="width:160px;">
+                        <select>
+                            <option value="0">
+                                Nederlands
+                            </option>
+                            <option value="1">
+                                Duits
+                            </option>
+                            <option value="2">
+                                Engels
+                            </option>
+                        </select>
+                    </div>
+                    <div class="contact-container">
+                        <a href="tel:+31612047218" class="contact-item">
+                            <img src="./assets/icons/phone.svg" alt="">
+                            <p>+31 (0)612 047 218</p>
+                        </a>
+                        <a href="mailto:info@cobol.nl" class="contact-item">
+                            <img src="./assets/icons/mail.svg" alt="">
+                            <p>info@cobol.nl</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                            target="_blank" class="contact-item">
+                            <img src="./assets/icons/linkedin.svg" alt="">
+                            <p>Jurgen Michorius</p>
+                        </a>
                     </div>
                 </ul>
             </div>
