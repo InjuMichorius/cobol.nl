@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./styles/desktop-nav.css">
     <link rel="stylesheet" href="./styles/mobile-nav.css">
     <link rel="stylesheet" href="./styles/hero-container.css">
+    <link rel="stylesheet" href="./styles/skill-container.css">
+    <link rel="stylesheet" href="./styles/expertise-container.css">
+    <link rel="stylesheet" href="./styles/footer-container.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
     <script src="./scripts/hamburger.js" defer></script>
     <script src="./scripts/language-dropdown.js" defer></script>
@@ -111,11 +114,11 @@
             <div class="content-block">
                 <h1>COBOL expertise nodig?</h1>
                 <p>De eigenaar van deze website werkt sinds 1996 met de programmeertaal COBOL en is inzetbaar als:</p>
-                <ul>
-                    <li>Functioneel ontwerper</li>
-                    <li>Tester</li>
-                    <li>Technsch ontwerper</li>
-                    <li>Ontwkkelaar</li>
+                <ul class="check-list">
+                    <li><img src="./assets/icons/check.svg" alt="">Functioneel ontwerper</li>
+                    <li><img src="./assets/icons/check.svg" alt="">Tester</li>
+                    <li><img src="./assets/icons/check.svg" alt="">Technisch ontwerper</li>
+                    <li><img src="./assets/icons/check.svg" alt="">Ontwikkelaar</li>
                 </ul>
                 <div class="button-wrapper">
                     <a href="#expertise" class="primary">Expertise</a>
@@ -123,9 +126,124 @@
             </div>
             <img src="./assets/images/jurgen-michorius.jpg" alt="">
         </section>
+        <section class="skill-container">
+            <ul>
+                <li>Teamleider</li>
+                <li>Testcoördinator</li>
+                <li>COBOL ontwikkelaar</li>
+                <li>T-map</li>
+                <li>Microfocus COBOL</li>
+                <li>COBOL</li>
+                <li>IDMS</li>
+                <li>IDMSX</li>
+                <li>DB2</li>
+                <li>Endevor</li>
+                <li>JCL</li>
+                <li>TSO-ISPF</li>
+                <li>Roscoe</li>
+                <li>ADS</li>
+                <li>MAID</li>
+                <li>Mainframe</li>
+                <li>CICS</li>
+                <li>XML</li>
+                <li>XSD</li>
+                <li>Bizzdesign Enterprise Architect</li>
+                <li>Harvest</li>
+                <li>Scaled agile omgevingen</li>
+                <li>Scrum</li>
+            </ul>
+        </section>
+        <section id="expertise" class="expertise-container">
+            <h2>Werkervaring</h2>
+            <ul class="expertse-list">
+                <li class="expertise-item">
+                    <div class="expertise-top">
+                        <div class="expertise-details">
+                            <h3>Belastingdienst - november 2006 tot maart 2007</h3>
+                            <ul class="role-list">
+                                <li>Teamleider</li>
+                                <li>Functioneel ontwerper</li>
+                                <li>Technisch ontwerper</li>
+                                <li>Tester</li>
+                                <li>COBOL ontwikkelaar</li>
+                            </ul>
+                        </div>
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <div class="expertise-bottom">
+                        <h4>Werkzaamheden</h4>
+                        <ul class="activities-list">
+                            <li>Adviseren op functioneel als technisch gebied zowel aan de afdeling als aan klanten.
+                            </li>
+                            <li>Zelfstandig uitvoeren van impact analyses, vooronderzoeken en offertes conform de
+                                gestelde normen, standaards en
+                                richtlijnen.</li>
+                            <li>Verantwoordelijk voor het afgegeven van indicatieve uren, vooronderzoeken en offertes
+                                binnen de gestelde richtlijnen,
+                                normen en standaards.</li>
+                        </ul>
+                        <button class="read-more-button primary">Lees meer...</button>
+                    </div>
+                </li>
+                <li class="expertise-item">
+                    <div class="expertise-top">
+                        <div class="expertise-details">
+                            <h3>Belastingdienst - november 2006 tot maart 2007</h3>
+                            <ul class="role-list">
+                                <li>Teamleider</li>
+                                <li>Functioneel ontwerper</li>
+                                <li>Technisch ontwerper</li>
+                                <li>Tester</li>
+                                <li>COBOL ontwikkelaar</li>
+                            </ul>
+                        </div>
+                        <img src="./assets/images/logo.png" alt="">
+                    </div>
+                    <div class="expertise-bottom">
+                        <h4>Werkzaamheden</h4>
+                        <ul class="activities-list">
+                            <li>Adviseren op functioneel als technisch gebied zowel aan de afdeling als aan klanten.
+                            </li>
+                            <li>Zelfstandig uitvoeren van impact analyses, vooronderzoeken en offertes conform de
+                                gestelde normen, standaards en
+                                richtlijnen.</li>
+                            <li>Verantwoordelijk voor het afgegeven van indicatieve uren, vooronderzoeken en offertes
+                                binnen de gestelde richtlijnen,
+                                normen en standaards.</li>
+                        </ul>
+                        <button class="read-more-button primary">Lees meer...</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer-container">
+        <div class="top-container">
+            <div class="left-column">
+                <img src="./assets/images/logo.png" alt="">
+            </div>
+            <div class="right-column">
+                <ul class="menu-items">
+                    <h4>Menu</h4>
+                    <li><a href="#expertise" class="menu-item">Expertise</a></li>
+                    <li><a href="./COBOL.html" class="menu-item">COBOL</a></li>
+                </ul>
+                <ul class="menu-items">
+                    <h4>Contact</h4>
+                    <li><a href="tel:+31612047218" class="menu-item">+31 (0)612 047 218</a></li>
+                    <li><a href="mailto:info@cobol.nl" class="menu-item">info@cobol.nl</a></li>
+                    <li><a href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                            target="_blank" class="menu-item">Jurgen
+                            Michorius</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <ul>
+                <li>KvK: 51958678</li>
+                <li>BTW: NL850241765801</li>
+            </ul>
+        </div>
     </footer>
 </body>
 

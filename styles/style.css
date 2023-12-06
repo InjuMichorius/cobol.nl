@@ -1,15 +1,32 @@
+@font-face {
+  font-family: "Rubik Bold";
+  src: url("../fonts/rubik-bold.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("../fonts/rubik-regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
 :root {
   --background-white: #f7f8f9;
-  --color-black: #000;
+  --color-black: #26272a;
   --color-gray: #4e545f;
-  --accent-color: #ee4b2b;
-  --border-gray: #e9ebf1;
+  --accent-color: #5463e6;
+  --accent-color-active: #4b58ce;
+  --border-gray: #4e545f;
+  --font-bold: "Rubik Bold";
+  --font-regular: "Rubik";
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
