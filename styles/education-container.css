@@ -7,7 +7,7 @@
 
 .education-container h2 {
   color: var(--color-black);
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -86,7 +86,7 @@
 
   .education-container h2 {
     color: var(--color-black);
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -162,7 +162,7 @@
 
   .education-container h2 {
     color: var(--color-black);
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -175,7 +175,7 @@
     gap: 40px;
     flex-direction: column;
     list-style-type: none;
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     border: 2px solid var(--border-gray);
   }
@@ -184,7 +184,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items: flex-start;
   }
 

@@ -4,7 +4,7 @@
 
 .expertise-container h2 {
   color: var(--color-black);
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -40,12 +40,14 @@
 
 .expertise-details {
   font-family: var(--font-regular);
-  color: var(--color-gray);
+  color: var(--color-black);
   margin-bottom: 20px;
 }
 
 .expertise-details h3 {
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
+  color: var(--color-black);
+  font-weight: 700;
   margin-bottom: 5px;
   font-size: 24px;
 }
@@ -57,7 +59,8 @@
 }
 
 .expertise-bottom h4 {
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
+  font-weight: 700;
   color: var(--color-gray);
   font-size: 20px;
   margin-bottom: 20px;
@@ -149,7 +152,8 @@
   }
 
   .expertise-bottom h4 {
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
+    font-weight: 700;
     color: var(--color-gray);
     font-size: 20px;
     margin-bottom: 20px;
@@ -190,7 +194,7 @@
 
 @media only screen and (max-width: 800px) {
   .expertise-container {
-    padding: 80px 15px 0;
+    padding: 100px 15px 0;
   }
 
   .expertise-container h2 {
@@ -245,7 +249,8 @@
   }
 
   .expertise-bottom h4 {
-    font-family: var(--font-bold);
+    font-family: var(--font-regular);
+    font-weight: 700;
     color: var(--color-gray);
     font-size: 20px;
     margin-bottom: 20px;

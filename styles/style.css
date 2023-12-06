@@ -1,11 +1,6 @@
 @font-face {
-  font-family: "Rubik Bold";
-  src: url("../fonts/rubik-bold.ttf") format("truetype"); /* Safari, Android, iOS */
-}
-
-@font-face {
   font-family: "Rubik";
-  src: url("../fonts/rubik-regular.ttf") format("truetype"); /* Safari, Android, iOS */
+  src: url("../fonts/rubik-regular.ttf") format("truetype");
 }
 
 :root {
@@ -15,7 +10,6 @@
   --accent-color: #5463e6;
   --accent-color-active: #4b58ce;
   --border-gray: #4e545f;
-  --font-bold: "Rubik Bold";
   --font-regular: "Rubik";
 }
 

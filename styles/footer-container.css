@@ -35,7 +35,8 @@
 }
 
 .footer-container .right-column h4 {
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
+  font-weight: 700;
   font-size: 20px;
   text-transform: uppercase;
   color: var(--color-black);
