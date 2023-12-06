@@ -63,7 +63,7 @@
   .footer-container .top-container {
     flex-direction: column;
     gap: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
     border-bottom: 1px solid var(--color-gray);
     margin-bottom: 20px;
     flex-wrap: wrap;
