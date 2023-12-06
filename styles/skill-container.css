@@ -25,3 +25,22 @@
   border: 2px solid var(--accent-color);
   color: var(--accent-color);
 }
+
+@media only screen and (max-width: 1100px) {
+  .skill-container {
+    padding: 0 30px;
+  }
+
+  .skill-container ul li {
+    padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .skill-container {
+    padding: 0 15px;
+  }
+  .skill-container ul {
+    justify-content: center;
+  }
+}

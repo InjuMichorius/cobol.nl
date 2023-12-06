@@ -26,7 +26,7 @@
 }
 
 .hero-container .check-list {
-  color: #4e545f;
+  color: var(--color-black);
   margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -84,4 +84,98 @@
 .hero-container .primary:hover {
   color: white;
   background-color: var(--accent-color-active);
+}
+
+@media only screen and (max-width: 1100px) {
+  .hero-container {
+    padding: 140px 30px 80px;
+    gap: 30px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .hero-container p {
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .hero-container .check-list {
+    color: var(--color-black);
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    list-style-type: none;
+    font-family: var(--font-regular);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 550px;
+  }
+
+  .hero-container .check-list li img {
+    width: 16px;
+  }
+
+  .hero-container img {
+    width: 200px;
+  }
+
+  .primary {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 60px;
+    border: none;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: var(--font-bold);
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero-container .primary:hover {
+    color: white;
+    background-color: var(--accent-color-active);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 15px 80px;
+  }
+  .hero-container .content-block {
+    width: 100%;
+  }
+  .hero-container .check-list {
+    grid-column-gap: 0px;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-container .check-list {
+    grid-template-columns: 1fr;
+  }
 }

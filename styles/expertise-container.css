@@ -3,8 +3,8 @@
 }
 
 .expertise-container h2 {
-  color: #4e545f;
-  font-family: Inter;
+  color: var(--color-black);
+  font-family: var(--font-bold);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -24,6 +24,9 @@
   border-radius: 5px;
   background-color: var(--background-gray);
   border: 2px solid var(--border-gray);
+  height: 375px;
+  overflow: hidden;
+  position: relative;
 }
 
 .expertise-top {
@@ -36,12 +39,13 @@
 }
 
 .expertise-details {
-  font-family: Inter;
+  font-family: var(--font-regular);
   color: var(--color-gray);
   margin-bottom: 20px;
 }
 
 .expertise-details h3 {
+  font-family: var(--font-bold);
   margin-bottom: 5px;
   font-size: 24px;
 }
@@ -53,10 +57,20 @@
 }
 
 .expertise-bottom h4 {
-  font-family: Inter;
+  font-family: var(--font-bold);
   color: var(--color-gray);
   font-size: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.expertise-bottom .button-wrapper {
+  margin-left: -30px;
+  background-color: var(--background-white);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 5px;
+  padding: 30px;
 }
 
 .activities-list {
@@ -64,7 +78,112 @@
   gap: 10px;
   flex-direction: column;
   padding-left: 20px;
-  font-family: Inter;
+  font-family: var(--font-regular);
   color: var(--color-gray);
   margin-bottom: 20px;
+}
+
+.read-more-button {
+  margin-top: 0;
+}
+
+.active {
+  height: auto;
+}
+
+.active .button-wrapper {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .expertise-container {
+    padding: 80px 30px 0;
+  }
+
+  .expertise-container h2 {
+    margin-bottom: 20px;
+  }
+
+  .expertse-list {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    list-style-type: none;
+  }
+
+  .expertise-item {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--background-gray);
+    border: 2px solid var(--border-gray);
+    height: 390px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .expertise-top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .expertise-top img {
+    height: 30px;
+  }
+
+  .expertise-details {
+    font-family: var(--font-regular);
+    color: var(--color-gray);
+    margin-bottom: 20px;
+  }
+
+  .expertise-details h3 {
+    font-size: 20px;
+  }
+
+  .role-list {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 10px;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+
+  .expertise-bottom h4 {
+    font-family: var(--font-bold);
+    color: var(--color-gray);
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .expertise-bottom .button-wrapper {
+    margin-left: -30px;
+    background-color: var(--background-white);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+  }
+
+  .activities-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-left: 20px;
+    font-family: var(--font-regular);
+    color: var(--color-gray);
+    margin-bottom: 20px;
+  }
+
+  .read-more-button {
+    margin-top: 0;
+  }
+
+  .active {
+    height: auto;
+  }
+
+  .active .button-wrapper {
+    display: none;
+  }
 }

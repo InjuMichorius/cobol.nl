@@ -6,6 +6,7 @@ nav {
   justify-content: space-between;
   padding: 30px 80px;
   background-color: var(--background-white);
+  z-index: 999;
 }
 
 .menu-items {
@@ -68,7 +69,6 @@ nav {
 
 .contact-dropdown:hover .dropbtn {
   background-color: var(--accent-color-active);
-  background-color: red;
 }
 
 .contact-dropdown {
@@ -83,7 +83,7 @@ nav {
   position: absolute;
   right: 0;
   border: 2px solid var(--border-gray);
-  background-color: white;
+  background-color: var(--background-white);
   min-width: 320px;
   z-index: 99;
   border-radius: 5px;
