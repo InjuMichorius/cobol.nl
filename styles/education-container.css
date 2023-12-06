@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 120px;
+  width: 130px;
 }
 
 .language-list {
@@ -80,8 +80,8 @@
   .education-container {
     padding: 80px 30px;
     display: grid;
-    gap: 30px;
-    grid-template-columns: 1fr auto;
+    gap: 20px;
+    grid-template-columns: 1fr;
   }
 
   .education-container h2 {
@@ -96,7 +96,83 @@
 
   .education-list {
     display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--border-gray);
+  }
+
+  .education-list li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .education-list .education-title {
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .education-list .time-text {
+    margin-left: auto;
+    color: var(--font-color);
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .language-list {
+    display: flex;
     gap: 40px;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--border-gray);
+    width: fit-content;
+  }
+
+  .language-list li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #333;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .education-container {
+    padding: 80px 30px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+  }
+
+  .education-container h2 {
+    color: var(--color-black);
+    font-family: var(--font-bold);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .education-list {
+    display: flex;
+    gap: 20px;
     flex-direction: column;
     list-style-type: none;
     padding: 30px;
@@ -112,7 +188,7 @@
 
   .education-list .education-title {
     font-family: Rubik;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -122,7 +198,7 @@
     margin-left: auto;
     color: var(--font-color);
     font-family: Rubik;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -131,11 +207,12 @@
   .language-list {
     display: flex;
     gap: 40px;
-    flex-direction: column;
+    flex-direction: row;
     list-style-type: none;
     padding: 30px;
     border-radius: 5px;
     border: 2px solid var(--border-gray);
+    width: fit-content;
   }
 
   .language-list li {
