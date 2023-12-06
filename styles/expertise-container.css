@@ -35,7 +35,7 @@
 }
 
 .expertise-top img {
-  height: 30px;
+  height: 60px;
 }
 
 .expertise-details {
@@ -127,10 +127,6 @@
   .expertise-top {
     display: flex;
     justify-content: space-between;
-  }
-
-  .expertise-top img {
-    height: 30px;
   }
 
   .expertise-details {
