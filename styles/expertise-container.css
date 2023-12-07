@@ -59,7 +59,7 @@
 .expertise-bottom h4 {
   font-family: var(--font-regular);
   font-weight: 700;
-  color: var(--color-gray);
+  color: var(--color-black);
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -82,7 +82,7 @@
   font-family: var(--font-regular);
   color: var(--color-gray);
   margin-bottom: 20px;
-  height: 154px;
+  max-height: 154px;
   overflow: hidden;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .active .activities-list {
-  height: auto;
+  max-height: 100%;
 }
 
 .active .button-wrapper {
