@@ -29,11 +29,13 @@
 
 .expertise-top {
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
 }
 
 .expertise-top img {
   height: 60px;
+  width: fit-content;
 }
 
 .expertise-details {
@@ -53,6 +55,7 @@
 .role-list {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
@@ -81,4 +84,32 @@
 
 .active .button-wrapper {
   display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .expertise-container {
+    padding: 140px 30px 80px;
+  }
+
+  .expertise-item {
+    padding: 20px;
+  }
+
+  .expertise-top {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .expertise-container {
+    padding: 140px 15px 80px;
+  }
+
+  .expertise-item {
+    padding: 15px;
+  }
+
+  .expertise-top {
+    flex-direction: column-reverse;
+  }
 }
