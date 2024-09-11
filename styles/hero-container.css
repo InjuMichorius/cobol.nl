@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 180px 80px 80px;
+  padding: 180px 80px 0;
 }
 
 .hero-container h1 {
@@ -88,7 +88,7 @@
 
 @media only screen and (max-width: 1100px) {
   .hero-container {
-    padding: 140px 30px 80px;
+    padding: 140px 30px 0;
     gap: 30px;
   }
 
