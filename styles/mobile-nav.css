@@ -30,11 +30,13 @@
   background-color: var(--background-white);
   transform: translateY(-100%);
   z-index: 5;
+  opacity: 0;
   transition: all 0.3s ease-in-out;
 }
 
 .mobile-nav .menu-items-container.show {
   transform: translateY(0%);
+  opacity: 1;
 }
 
 .mobile-nav .menu-items {

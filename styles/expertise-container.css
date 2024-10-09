@@ -34,8 +34,8 @@
 }
 
 .expertise-top img {
-  height: 60px;
-  width: fit-content;
+  height: auto;
+  max-width: 200px;
 }
 
 .expertise-details {
