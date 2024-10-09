@@ -129,6 +129,9 @@ nav {
   nav {
     display: none;
   }
+  .dropdown {
+    margin-right: 20px;
+  }
 }
 
 .dropdown {
@@ -155,5 +158,6 @@ nav {
   gap: 0.5rem;
   align-items: center;
   color: var(--color-gray);
+  font-family: var(--font-regular);
   text-decoration: none;
 }

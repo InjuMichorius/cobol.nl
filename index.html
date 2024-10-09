@@ -39,10 +39,10 @@
             <a href="#skills" class="menu-item">
               <li>Skills</li>
             </a>
-            <a href="#about" class="menu-item">
+            <a href="./public/about.html" class="menu-item">
               <li>Over mij</li>
             </a>
-            <a href="#expertise" class="menu-item">
+            <a href="./public/expertise.html" class="menu-item">
               <li>Expertise</li>
             </a>
             <div class="dropdown">
@@ -80,6 +80,13 @@
           <a href="#"
             ><img src="./assets/images/logo.png" alt="" class="logo"
           /></a>
+          <div class="dropdown">
+            <div class="language-wrapper"><img src="./assets/images/dutch-flag.png" alt="" />Nederlands</div>
+            <div class="dropdown-content">
+              <a href="#" class="language-wrapper"><img src="./assets/images/english-flag.png" alt="" />English</a>
+              <a href="#" class="language-wrapper"><img src="./assets/images/german-flag.png" alt="" />German</a>
+            </div>
+          </div>
           <div class="hamburger" id="hamburger-11">
             <span class="line"></span>
             <span class="line"></span>
@@ -88,16 +95,15 @@
         </div>
         <div id="menu" class="menu-items-container">
           <ul class="menu-items">
-            <a href="#expertise" class="menu-item">
+            <a href="#skills" class="menu-item">
+              <li>Skills</li>
+            </a>
+            <a href="./public/about.html" class="menu-item">
+              <li>Over mij</li>
+            </a>
+            <a href="./public/expertise.html" class="menu-item">
               <li>Expertise</li>
             </a>
-            <div class="dropdown">
-              <div class="language-wrapper"><img src="./assets/images/dutch-flag.png" alt="" />Nederlands</div>
-              <div class="dropdown-content">
-                <a href="#" class="language-wrapper"><img src="./assets/images/english-flag.png" alt="" />English</a>
-                <a href="#" class="language-wrapper"><img src="./assets/images/german-flag.png" alt="" />German</a>
-              </div>
-            </div>
             <div class="contact-container">
               <a href="tel:+31612047218" class="contact-item">
                 <img src="./assets/icons/phone.svg" alt="" />
@@ -118,6 +124,7 @@
             </div>
           </ul>
         </div>
+        <div id="backdrop" class="backdrop"></div>
       </nav>
     </header>
     <main>
@@ -139,7 +146,7 @@
             <li><img src="./assets/icons/check.svg" alt="" />Ontwikkelaar</li>
           </ul>
           <div class="button-wrapper">
-            <a href="#expertise" class="primary">Expertise</a>
+            <a href="./public/expertise.html" class="primary">Expertise</a>
           </div>
         </div>
         <img src="./assets/images/jurgen-michorius.jpg" alt="" />
@@ -189,62 +196,11 @@
           bezig met het opzetten ven een geautomatiseerd systeem dat
           milieugegevens moest opleveren, die benodigd waren als input voor het
           jaarlijkse verplichte milieuverslag. Na de implementatie, kreeg ik de
-          rol als functioneel beheerder van dit systeem. Vanwege het principe
-          last in first out, werd ik in het kader van een sanering, een jaar
-          later ontslagen.
+          rol als functioneel beheerder van dit systeem.
         </p>
-
-        <p>
-          Tijdens mijn studie in Wageningen werd me al verteld, dat slechts een
-          klein aantal werk vindt in zijn eigen afstudeerrichting en dat gold
-          dus ook voor mij. Ik liet me door het Ministerie van Defensie
-          omscholen naar een IT-er met als specialisatie COBOL, bij het DTO
-          (Defensie Telematica Organisatie), het automatiseringsbedrijf van het
-          ministerie van Defensie.
-        </p>
-
-        <p>
-          Gedurende mijn DTO-opleiding werd menigmaal gesuggereerd dat COBOL
-          gedoemd was langzamerhand te verdwijnen. Niets bleek minder waar! Het
-          wordt nog steeds veel gebruikt bij banken, verzekeringsmaatschappijen
-          en overheidsinstellingen, waar het verantwoordelijk is voor miljarden
-          transacties per dag. COBOL speelt dus nog steeds een cruciale rol in
-          de IT-sector en vormt vaak de ruggengraat van kritische
-          bedrijfsprocessen, waarbij de betrouwbaarheid en de stabiliteit
-          essentieel zijn voor de dagelijkse operaties.
-        </p>
-
-        <p>
-          Natuurlijk ben ik in mijn carrière betrokken geweest bij
-          uitfaseringsprojecten, maar aan de andere kant ook bij onderhoud en
-          nieuwbouwprojecten waarbij optimalisatie en modernisering (aansluiting
-          nieuwe technologieën) een grote rol speelde/speelt. Helaas moet er
-          hedendaags geconstateerd worden, dat er weinig aanwas is van jonge
-          COBOL IT-ers. De taal staat bekend als (stok)oud en niet sexy. Van de
-          andere kant de taal is begrijpelijk en makkelijk leesbaar. Het draait
-          vaak in zeer complexe omgevingen, daar zit dan wel een grote uitdaging
-          om de programmatuur te laten doen wat het moet doen. Er zijn uiteraard
-          wel tools die het ontwikkelen in COBOL moderner maken, een voorbeeld
-          is Microfocus COBOL.
-        </p>
-
-        <p>
-          Oké even genoeg even genoeg over COBOL, deze website is tenslotte niet
-          bedoeld om een hele pleidooi voor COBOL te gaan houden, maar is
-          bedoeld om mijzelf aan het werk te houden. Ik ben zelf ook niet meer
-          afhankelijk van de taal, aangezien ik inmiddels genoeg ervaring heb
-          opgedaan als functioneel ontwerper en dat kan ik platform
-          onafhankelijk uitoefenen. Mijn voorkeur gaat echter wel uit naar een
-          COBOL platform, ik mag er tenslotte nog steeds graag in programmeren
-          en/of testen.
-        </p>
-
-        <p>
-          Voor meer informatie betreffende mijn persoon, verwijs ik graag naar
-          mijn <a href="#expertise">werkervaringen</a> verderop in de website.
-          Zijn er nog vragen of dergelijke, neem dan gerust even contact met mij
-          op via de op de website aangegeven contactmogelijkheden.
-        </p>
+        <div class="button-wrapper">
+          <a href="./public/about.html" class="primary">Lees meer</a>
+        </div>
       </section>
       <section id="expertise" class="expertise-container">
         <h2>Werkervaring</h2>
@@ -408,237 +364,10 @@
               </ul>
             </div>
           </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>Van Lanschot Bankiers - februari 2006 tot oktober 2006</h3>
-                <ul class="role-list">
-                  <li>Functioneel ontwerper</li>
-                  <li>Technisch ontwerper</li>
-                  <li>Tester</li>
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-landschot.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Uitvoeren migratie COBOL naar een integraal bankpakket in
-                  Siebel
-                </li>
-                <li>
-                  Opstellen en aanpassen functionele en technische ontwerpen van
-                  de interfaces via MQ en XML
-                </li>
-                <li>Inrichten van de testomgevingen</li>
-                <li>Ontwikkelen in COBOL, CICS, DB2</li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>PGGM - november 2005 tot januari 2006</h3>
-                <ul class="role-list">
-                  <li>Functioneel ontwerper</li>
-                  <li>Technisch ontwerper</li>
-                  <li>Tester</li>
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-pggm.gif" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Uitvoeren van de implementatie van de nieuwe
-                  Zorgverzekeringswet in het PensioenBetalingenSysteem (PBS)
-                </li>
-                <li>
-                  Opstellen en aanpassen functionele en technische specificaties
-                </li>
-                <li>Begeleiden van de gebruikersacceptatietesten (GAT)</li>
-                <li>Ontwikkelen in Microfocus COBOL, COBOL, TP, IDMSX</li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>Van Lanschot Bankiers - maart 2005 tot oktober 2005</h3>
-                <ul class="role-list">
-                  <li>Testcoördinator</li>
-                  <li>Tester</li>
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-landschot.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>Integratie banksysteem overgenomen partij</li>
-                <li>Inrichten van testomgevingen</li>
-                <li>
-                  Opstellen van logische en fysieke testgevallen volgens de
-                  T-map methode
-                </li>
-                <li>Maken van testplannen</li>
-                <li>Coördineren van de acceptatietest</li>
-                <li>Ontwikkelen in COBOL, CICS, DB2</li>
-              </ul>
-              <div class="button-wrapper">
-                <button class="read-more-button primary">Lees meer...</button>
-              </div>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>Logica - juli 2004 tot februari 2005</h3>
-                <ul class="role-list">
-                  <li>Tester</li>
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-cgi.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Testen dataconversie IDMS naar DB2 van Nationale-Nederlanden,
-                  zowel technisch als logisch
-                </li>
-                <li>Inrichten van de testomgevingen</li>
-                <li>
-                  Opstellen van logische en fysieke testgevallen volgens de
-                  T-map methode
-                </li>
-                <li>Ontwikkelen in COBOL, DB2</li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>DAF - oktober 2002 - juli 2003</h3>
-                <ul class="role-list">
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-daf.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>Ontwikkelen in MAID, COBOL, IDMS</li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>PGGM - Januari 1998 tot September 2002</h3>
-                <ul class="role-list">
-                  <li>Teamleider</li>
-                  <li>Functioneel ontwerper</li>
-                  <li>Technisch ontwerper</li>
-                  <li>Tester</li>
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-pggm.gif" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Opstellen en aanpassen van functionele en technische
-                  specificaties
-                </li>
-                <li>Begeleiden van de gebruikersacceptatietesten (GAT)</li>
-                <li>Uitvoeren van systeemtesten</li>
-                <li>Plannen van de technische ontwerpfase en de bouwfase</li>
-                <li>Opstellen van begrotingsspecificaties</li>
-                <li>Opstellen van testontwerpen volgens de T-map methode</li>
-                <li>Ontwikkelen in Microfocus COBOL, COBOL, TP, IDMSX</li>
-              </ul>
-              <div class="button-wrapper">
-                <button class="read-more-button primary">Lees meer...</button>
-              </div>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>Koninklijke Luchtmacht - Maart 1995 tot Mei 1996</h3>
-                <ul class="role-list">
-                  <li>COBOL ontwikkelaar</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-luchtmacht.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>Ontwikkelen in COBOL, ADS, IDMS</li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>Tennet - Maart 1995 tot Mei 1996</h3>
-                <ul class="role-list">
-                  <li>Milieubeleidsmedewerker</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-tennet.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Het uitvoeren van het milieubeleidsplan op het gebied van de
-                  Elektriciteitswet
-                </li>
-                <li>
-                  Het automatiseren van de milieugegevens voor het jaarlijkse
-                  verplichte milieuverslag
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li class="expertise-item">
-            <div class="expertise-top">
-              <div class="expertise-details">
-                <h3>IMAG-DLO - oktober 1993 tot februari 1995</h3>
-                <ul class="role-list">
-                  <li>Projectleider</li>
-                </ul>
-              </div>
-              <img src="./assets/images/logo-imag-dlo.png" alt="" />
-            </div>
-            <div class="expertise-bottom">
-              <h4>Werkzaamheden</h4>
-              <ul class="activities-list">
-                <li>
-                  Leiding geven over diverse projecten op het gebied van de
-                  ammoniakproblematiek
-                </li>
-                <li>
-                  Opstellen van nieuwe projectvoorstellen richting de Europese
-                  Unie
-                </li>
-                <li>Het schrijven van publicaties</li>
-              </ul>
-            </div>
-          </li>
         </ul>
+        <div class="button-wrapper">
+          <a href="./public/expertise.html" class="primary">Klik hier om meer ervaringen te zien</a>
+        </div>
       </section>
       <section class="education-container">
         <div class="left-column">
@@ -698,7 +427,7 @@
                 href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
                 target="_blank"
                 class="menu-item"
-                >Jurgen Michorius</a
+                >Linkedin</a
               >
             </li>
           </ul>

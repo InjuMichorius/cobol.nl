@@ -163,7 +163,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: flex-start;
-    padding: 100px 15px 80px;
+    padding: 100px 15px 0;
   }
   .hero-container .content-block {
     width: 100%;

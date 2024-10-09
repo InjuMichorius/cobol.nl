@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Jurgen Michorius</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/about-container.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/hero-container.css" />
+    <link rel="stylesheet" href="../styles/desktop-nav.css" />
+    <link rel="stylesheet" href="../styles/mobile-nav.css" />
+    <link rel="stylesheet" href="../styles/footer-container.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      defer
+    ></script>
+    <script src="../scripts/hamburger.js" defer></script>
+    <script src="../scripts/read-more.js" defer></script>
+    <script src="../scripts/dropdown.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html"
+          ><img src="../assets/images/logo.png" alt="" class="logo"
+        /></a>
+        <div class="menu-items-container">
+          <ul class="menu-items">
+            <a href="../index.html#skills" class="menu-item">
+              <li>Skills</li>
+            </a>
+            <a href="./about.html" class="menu-item">
+              <li>Over mij</li>
+            </a>
+            <a href="./expertise.html" class="menu-item">
+              <li>Expertise</li>
+            </a>
+            <div class="dropdown">
+              <div class="language-wrapper">
+                <img src="../assets/images/dutch-flag.png" alt="" />Nederlands
+              </div>
+              <div class="dropdown-content">
+                <a href="#" class="language-wrapper"
+                  ><img
+                    src="../assets/images/english-flag.png"
+                    alt=""
+                  />English</a
+                >
+                <a href="#" class="language-wrapper"
+                  ><img
+                    src="../assets/images/german-flag.png"
+                    alt=""
+                  />German</a
+                >
+              </div>
+            </div>
+            <div class="contact-dropdown">
+              <button class="dropbtn">Contact</button>
+              <div class="dropdown-content">
+                <a href="tel:+31612047218" class="contact-item"
+                  ><img src="../assets/icons/phone.svg" alt="" />
+                  <p>+31 (0)612 047 218</p>
+                </a>
+                <a href="mailto:info@cobol.nl" class="contact-item"
+                  ><img src="../assets/icons/mail.svg" alt="" />
+                  <p>info@cobol.nl</p>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                  target="_blank"
+                  class="contact-item"
+                  ><img src="../assets/icons/linkedin.svg" alt="" />
+                  <p>Jurgen Michorius</p>
+                </a>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </nav>
+      <nav class="mobile-nav">
+        <div class="mobile-top">
+          <a href="../index.html"
+            ><img src="../assets/images/logo.png" alt="" class="logo"
+          /></a>
+          <div class="dropdown">
+            <div class="language-wrapper">
+              <img src="../assets/images/dutch-flag.png" alt="" />Nederlands
+            </div>
+            <div class="dropdown-content">
+              <a href="#" class="language-wrapper"
+                ><img
+                  src="../assets/images/english-flag.png"
+                  alt=""
+                />English</a
+              >
+              <a href="#" class="language-wrapper"
+                ><img src="../assets/images/german-flag.png" alt="" />German</a
+              >
+            </div>
+          </div>
+          <div class="hamburger" id="hamburger-11">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+        <div id="menu" class="menu-items-container">
+          <ul class="menu-items">
+            <a href="../index.html#skills" class="menu-item">
+              <li>Skills</li>
+            </a>
+            <a href="./about.html" class="menu-item">
+              <li>Over mij</li>
+            </a>
+            <a href="./expertise.html" class="menu-item">
+              <li>Expertise</li>
+            </a>
+            <div class="contact-container">
+              <a href="tel:+31612047218" class="contact-item">
+                <img src="../assets/icons/phone.svg" alt="" />
+                <p>+31 (0)612 047 218</p>
+              </a>
+              <a href="mailto:info@cobol.nl" class="contact-item">
+                <img src="../assets/icons/mail.svg" alt="" />
+                <p>info@cobol.nl</p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                target="_blank"
+                class="contact-item"
+              >
+                <img src="../assets/icons/linkedin.svg" alt="" />
+                <p>Jurgen Michorius</p>
+              </a>
+            </div>
+          </ul>
+        </div>
+        <div id="backdrop" class="backdrop"></div>
+      </nav>
+    </header>
+    <main>
+      <section id="about" class="about-container">
+        <h2>Even voorstellen...</h2>
+        <p>
+          Ik ben geboren op 1 juni 1968, opgegroeid in Haaksbergen en na het
+          behalen van het VWO diploma vertrokken naar Wageningen voor een studie
+          Milieuhygiëne aan de Landbouwuniversiteit. In 1993 afgestudeerd en 3
+          jaar werkzaam geweest op het gebied van milieuonderzoek en beleid, als
+          laatste bij Tennet dat toen nog onder de naam SEP (Samenwerkende
+          Elektriciteits Productiebedrijven) opereerde. Bij het SEP was ik o.a.
+          bezig met het opzetten ven een geautomatiseerd systeem dat
+          milieugegevens moest opleveren, die benodigd waren als input voor het
+          jaarlijkse verplichte milieuverslag. Na de implementatie, kreeg ik de
+          rol als functioneel beheerder van dit systeem. Vanwege het principe
+          last in first out, werd ik in het kader van een sanering, een jaar
+          later ontslagen.
+        </p>
+
+        <p>
+          Tijdens mijn studie in Wageningen werd me al verteld, dat slechts een
+          klein aantal werk vindt in zijn eigen afstudeerrichting en dat gold
+          dus ook voor mij. Ik liet me door het Ministerie van Defensie
+          omscholen naar een IT-er met als specialisatie COBOL, bij het DTO
+          (Defensie Telematica Organisatie), het automatiseringsbedrijf van het
+          ministerie van Defensie.
+        </p>
+
+        <p>
+          Gedurende mijn DTO-opleiding werd menigmaal gesuggereerd dat COBOL
+          gedoemd was langzamerhand te verdwijnen. Niets bleek minder waar! Het
+          wordt nog steeds veel gebruikt bij banken, verzekeringsmaatschappijen
+          en overheidsinstellingen, waar het verantwoordelijk is voor miljarden
+          transacties per dag. COBOL speelt dus nog steeds een cruciale rol in
+          de IT-sector en vormt vaak de ruggengraat van kritische
+          bedrijfsprocessen, waarbij de betrouwbaarheid en de stabiliteit
+          essentieel zijn voor de dagelijkse operaties.
+        </p>
+
+        <p>
+          Natuurlijk ben ik in mijn carrière betrokken geweest bij
+          uitfaseringsprojecten, maar aan de andere kant ook bij onderhoud en
+          nieuwbouwprojecten waarbij optimalisatie en modernisering (aansluiting
+          nieuwe technologieën) een grote rol speelde/speelt. Helaas moet er
+          hedendaags geconstateerd worden, dat er weinig aanwas is van jonge
+          COBOL IT-ers. De taal staat bekend als (stok)oud en niet sexy. Van de
+          andere kant de taal is begrijpelijk en makkelijk leesbaar. Het draait
+          vaak in zeer complexe omgevingen, daar zit dan wel een grote uitdaging
+          om de programmatuur te laten doen wat het moet doen. Er zijn uiteraard
+          wel tools die het ontwikkelen in COBOL moderner maken, een voorbeeld
+          is Microfocus COBOL.
+        </p>
+
+        <p>
+          Oké even genoeg even genoeg over COBOL, deze website is tenslotte niet
+          bedoeld om een hele pleidooi voor COBOL te gaan houden, maar is
+          bedoeld om mijzelf aan het werk te houden. Ik ben zelf ook niet meer
+          afhankelijk van de taal, aangezien ik inmiddels genoeg ervaring heb
+          opgedaan als functioneel ontwerper en dat kan ik platform
+          onafhankelijk uitoefenen. Mijn voorkeur gaat echter wel uit naar een
+          COBOL platform, ik mag er tenslotte nog steeds graag in programmeren
+          en/of testen.
+        </p>
+
+        <p>
+          Voor meer informatie betreffende mijn persoon, verwijs ik graag naar
+          mijn <a href="./expertise.html">werkervaringen</a> verderop in de website.
+          Zijn er nog vragen of dergelijke, neem dan gerust even contact met mij
+          op via de op de website aangegeven contactmogelijkheden.
+        </p>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="top-container">
+        <div class="left-column">
+          <img src="./assets/images/logo.png" alt="" />
+        </div>
+        <div class="right-column">
+          <ul class="menu-items">
+            <h4>Menu</h4>
+            <li><a href="./expertise.html" class="menu-item">Expertise</a></li>
+          </ul>
+          <ul class="menu-items">
+            <h4>Contact</h4>
+            <li>
+              <a href="tel:+31612047218" class="menu-item"
+                >+31 (0)612 047 218</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@cobol.nl" class="menu-item">info@cobol.nl</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                target="_blank"
+                class="menu-item"
+                >Jurgen Michorius</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <ul>
+          <li>KvK: 51958678</li>
+          <li>BTW: NL850241765801</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
