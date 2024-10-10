@@ -28,17 +28,20 @@
     <header>
         <nav>
           <a href="../index.html"
-            ><img src="../assets/images/logo.png" alt="" class="logo"
+            ><img src="../assets/images/logo.svg" alt="" class="logo"
           /></a>
           <div class="menu-items-container">
             <ul class="menu-items">
+                <a href="../index.html" class="menu-item">
+                    <li>Home</li>
+                  </a>
               <a href="../index.html#skills" class="menu-item">
               <li>Skills</li>
             </a>
             <a href="./about.html" class="menu-item">
               <li>Over mij</li>
             </a>
-            <a href="./expertise.html" class="menu-item">
+            <a href="./expertise.html" class="menu-item active">
               <li>Expertise</li>
             </a>
               <div class="dropdown">
@@ -74,7 +77,7 @@
         <nav class="mobile-nav">
           <div class="mobile-top">
             <a href="../index.html"
-              ><img src="../assets/images/logo.png" alt="" class="logo"
+              ><img src="../assets/images/logo.svg" alt="" class="logo"
             /></a>
             <div class="dropdown">
                 <div class="language-wrapper"><img src="../assets/images/dutch-flag.png" alt="" />Nederlands</div>
@@ -91,13 +94,16 @@
           </div>
           <div id="menu" class="menu-items-container">
             <ul class="menu-items">
+                <a href="../index.html" class="menu-item">
+                    <li>Home</li>
+                  </a>
                 <a href="../index.html#skills" class="menu-item">
                     <li>Skills</li>
                   </a>
                   <a href="./about.html" class="menu-item">
                     <li>Over mij</li>
                   </a>
-                  <a href="#" class="menu-item">
+                  <a href="#" class="menu-item active">
                     <li>Expertise</li>
                   </a>
               <div class="contact-container">
@@ -125,7 +131,7 @@
       </header>
     <main>
         <section id="expertise" class="expertise-container">
-            <h2>Werkervaring</h2>
+            <h2>Expertise</h2>
             <ul class="expertse-list">
               <li class="expertise-item">
                 <div class="expertise-top">
@@ -161,15 +167,12 @@
                       collega's in de scrumteams
                     </li>
                   </ul>
-                  <div class="button-wrapper">
-                    <button class="read-more-button primary">Lees meer...</button>
-                  </div>
                 </div>
               </li>
               <li class="expertise-item">
                 <div class="expertise-top">
                   <div class="expertise-details">
-                    <h3>Belastingdienst - april 2007 tot februari 2018</h3>
+                    <h3>Achmea - april 2007 tot februari 2018</h3>
                     <ul class="role-list">
                       <li>Functioneel ontwerper</li>
                       <li>Technisch ontwerper</li>
@@ -368,9 +371,6 @@
                     <li>Coördineren van de acceptatietest</li>
                     <li>Ontwikkelen in COBOL, CICS, DB2</li>
                   </ul>
-                  <div class="button-wrapper">
-                    <button class="read-more-button primary">Lees meer...</button>
-                  </div>
                 </div>
               </li>
               <li class="expertise-item">
@@ -499,7 +499,7 @@
                       <li>Projectleider</li>
                     </ul>
                   </div>
-                  <img src="../assets/images/logo-imag-dlo.png" alt="" />
+                  <img src="../assets/images/logo-imag-dlo.png" alt="" class="small-icon" />
                 </div>
                 <div class="expertise-bottom">
                   <h4>Werkzaamheden</h4>
@@ -519,43 +519,43 @@
             </ul>
           </section>
     </main>
-      <footer class="footer-container">
-        <div class="top-container">
-          <div class="left-column">
-            <img src="./assets/images/logo.png" alt="" />
-          </div>
-          <div class="right-column">
-            <ul class="menu-items">
-              <h4>Menu</h4>
-              <li><a href="#expertise" class="menu-item">Expertise</a></li>
-            </ul>
-            <ul class="menu-items">
-              <h4>Contact</h4>
-              <li>
-                <a href="tel:+31612047218" class="menu-item"
-                  >+31 (0)612 047 218</a
-                >
-              </li>
-              <li>
-                <a href="mailto:info@cobol.nl" class="menu-item">info@cobol.nl</a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
-                  target="_blank"
-                  class="menu-item"
-                  >Jurgen Michorius</a
-                >
-              </li>
-            </ul>
-          </div>
+    <footer class="footer-container">
+      <div class="top-container">
+        <div class="left-column">
+          <img src="./assets/images/logo.svg" alt="" />
         </div>
-        <div class="bottom-container">
-          <ul>
-            <li>KvK: 51958678</li>
-            <li>BTW: NL850241765801</li>
+        <div class="right-column">
+          <ul class="menu-items">
+            <h4>Menu</h4>
+            <li><a href="./expertise.html" class="menu-item">Expertise</a></li>
+          </ul>
+          <ul class="menu-items">
+            <h4>Contact</h4>
+            <li>
+              <a href="tel:+31612047218" class="menu-item"
+                >+31 (0)612 047 218</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@cobol.nl" class="menu-item">info@cobol.nl</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jurgen-michorius-5971942?originalSubdomain=nl"
+                target="_blank"
+                class="menu-item"
+                >Jurgen Michorius</a
+              >
+            </li>
           </ul>
         </div>
-      </footer>
+      </div>
+      <div class="bottom-container">
+        <ul>
+          <li>KvK: 51958678</li>
+          <li>BTW: NL850241765801</li>
+        </ul>
+      </div>
+    </footer>
 </body>
 </html>

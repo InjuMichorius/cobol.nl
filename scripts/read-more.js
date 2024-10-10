@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // Toon alleen de eerste 4 <li> items
       activitiesList.forEach(function(item, index) {
-          if (index >= 4) {
+          if (index >= 5) {
               item.style.display = "none";
           }
       });

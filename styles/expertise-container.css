@@ -38,6 +38,10 @@
   max-width: 200px;
 }
 
+.small-icon {
+  width: 30px;
+}
+
 .expertise-details {
   font-family: var(--font-regular);
   color: var(--color-black);

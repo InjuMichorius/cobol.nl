@@ -3,6 +3,11 @@
   src: url("../fonts/rubik-regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Anton";
+  src: url("../fonts/Anton-Regular.ttf") format("truetype");
+}
+
 :root {
   --background-white: #f7f8f9;
   --color-black: #26272a;
@@ -11,6 +16,7 @@
   --accent-color-active: #4b58ce;
   --border-gray: #4e545f;
   --font-regular: "Rubik";
+  --font-logo: "Anton";
 }
 
 * {

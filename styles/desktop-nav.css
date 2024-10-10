@@ -11,26 +11,26 @@ nav {
 
 .menu-items {
   display: flex;
-  gap: 60px;
+  gap: 20px;
   align-items: center;
   list-style-type: none;
   font-family: var(--font-regular);
   font-size: 24px;
 }
 
-.menu-items .menu-item::after {
+.menu-items .menu-item::after, .menu-items .menu-item.active::after {
   position: absolute;
   content: "";
   top: 100%;
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--color-black);
+  background: var(--color-gray);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.5s;
 }
-.menu-items .menu-item:hover::after {
+.menu-items .menu-item:hover::after, .menu-items .menu-item.active::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -46,7 +46,7 @@ nav {
 }
 
 .menu-items .menu-item:hover {
-  color: var(--color-black);
+  color: var(--accent-color-active);
 }
 
 .logo {
@@ -63,7 +63,7 @@ nav {
   font-size: 16px;
   background-color: var(--accent-color);
   color: white;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: none;
 }
@@ -120,8 +120,8 @@ nav {
     padding: 30px 30px;
   }
   .menu-items {
-    gap: 30px;
-    font-size: 20px;
+    gap: 15px;
+    font-size: 18px;
   }
 }
 
