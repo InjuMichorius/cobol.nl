@@ -52,8 +52,8 @@
 }
 
 .hero-container img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 300px;
   border-radius: 5px;
 }
 
