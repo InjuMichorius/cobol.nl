@@ -27,8 +27,8 @@
   color: var(--color-gray);
 }
 
-.footer-container .right-column a:hover {
-  color: var(--black);
+.footer-container .right-column a:hover, .footer-container .right-column a:visited:hover {
+  color: var(--accent-color-active);
 }
 
 .footer-container .right-column h4 {
